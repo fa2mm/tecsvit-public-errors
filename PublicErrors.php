@@ -6,6 +6,8 @@ namespace \tecsvit;
  * Class PublicErrors
  *
  * @property array $errors
+ *
+ * @use ObjectHelper
  */
 class PublicErrors
 {
@@ -42,5 +44,13 @@ class PublicErrors
     public function hasErrors()
     {
         return !empty($this->errors);
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getFirstError()
+    {
+        return ObjectHelper::getAttribute($this->errors, 0);
     }
 }

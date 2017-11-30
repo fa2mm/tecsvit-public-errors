@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*"
+        "tecsvit/object-helper": "*"
     },
     "autoload": {
         "psr-4": {
