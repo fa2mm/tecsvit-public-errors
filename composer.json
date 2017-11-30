@@ -1,0 +1,21 @@
+{
+    "name": "tecsvit/public-errors",
+    "description": "Public errors",
+    "type": "library",
+    "keywords": ["library","handler errors"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "fa2m",
+            "email": "2day@ua.fm"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "\\tecsvit\\": ""
+        }
+    }
+}
