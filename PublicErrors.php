@@ -29,10 +29,18 @@ class PublicErrors
     }
 
     /**
-     * @return void
+     * @return array
      */
     public function getErrors()
     {
-        $this->errors = [];
+        return $this->errors;
+    }
+
+    /**
+     * @return boolean
+     */
+    public function hasErrors()
+    {
+        return !empty($this->errors);
     }
 }
