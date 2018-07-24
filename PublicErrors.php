@@ -6,6 +6,7 @@ namespace tecsvit;
  * Class PublicErrors
  *
  * @property array $errors
+ * @version 1.0
  *
  * @use ObjectHelper
  */
